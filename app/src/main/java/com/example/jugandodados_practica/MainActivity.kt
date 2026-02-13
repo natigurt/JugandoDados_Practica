@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun validarCantidad (saldoActual : Double) : Boolean {
-        val dineroApostado = findViewById<EditText>(R.id.apuestaUser) //es d ese type??
+        val dineroApostado = findViewById<EditText>(R.id.apuestaUser) 
         val textoApuesta = dineroApostado.text.toString()
 
         //si el usuario no ha puesto ninguna cantidad, avisa
